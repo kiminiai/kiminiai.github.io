@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="640" viewBox="0 0 1100 640">
+
+<style>
+  .title { font: 700 28px Arial, sans-serif; fill: #2b2457; }
+  .label { font: 600 20px Arial, sans-serif; fill: #2b2457; }
+  .small { font: 500 16px Arial, sans-serif; fill: #3a3652; }
+  .tiny { font: 500 14px Arial, sans-serif; fill: #4a465f; }
+  .box { fill: #f4efff; stroke: #8d72e1; stroke-width: 2; rx: 16; }
+  .box2 { fill: #eef7ff; stroke: #65a7e8; stroke-width: 2; rx: 16; }
+  .box3 { fill: #f1fff4; stroke: #5eba74; stroke-width: 2; rx: 16; }
+  .warn { fill: #fff4e8; stroke: #ee9b43; stroke-width: 2; rx: 16; }
+  .arrow { stroke: #6f55d9; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+  .arrow2 { stroke: #2d8dc9; stroke-width: 3; fill: none; marker-end: url(#arrow2); }
+  .muted { fill: #fafafa; stroke: #d9d4ee; stroke-width: 1.5; rx: 12; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6f55d9" /></marker>
+  <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2d8dc9" /></marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<text x="550" y="45" class="title" text-anchor="middle">가상 메모리와 페이징</text>
+<rect x="70" y="120" width="260" height="360" class="box" /><text x="200" y="160" class="label" text-anchor="middle">가상 메모리</text>
+<rect x="120" y="205" width="160" height="55" class="muted" /><text x="200" y="240" class="small" text-anchor="middle">Page 1</text>
+<rect x="120" y="275" width="160" height="55" class="muted" /><text x="200" y="310" class="small" text-anchor="middle">Page 2</text>
+<rect x="120" y="345" width="160" height="55" class="muted" /><text x="200" y="380" class="small" text-anchor="middle">Page 3</text>
+<rect x="420" y="120" width="260" height="360" class="box2" /><text x="550" y="160" class="label" text-anchor="middle">페이지 테이블</text><text x="550" y="225" class="small" text-anchor="middle">Page 1 → Frame 3</text><text x="550" y="285" class="small" text-anchor="middle">Page 2 → Disk</text><text x="550" y="345" class="small" text-anchor="middle">Page 3 → Frame 1</text>
+<rect x="770" y="120" width="260" height="360" class="box3" /><text x="900" y="160" class="label" text-anchor="middle">물리 메모리</text>
+<rect x="820" y="205" width="160" height="55" class="muted" /><text x="900" y="240" class="small" text-anchor="middle">Frame 1</text>
+<rect x="820" y="275" width="160" height="55" class="muted" /><text x="900" y="310" class="small" text-anchor="middle">Frame 2</text>
+<rect x="820" y="345" width="160" height="55" class="muted" /><text x="900" y="380" class="small" text-anchor="middle">Frame 3</text>
+<line x1="330" y1="250" x2="420" y2="250" class="arrow" /><line x1="680" y1="250" x2="770" y2="370" class="arrow2" />
+<line x1="330" y1="370" x2="420" y2="370" class="arrow" /><line x1="680" y1="370" x2="770" y2="230" class="arrow2" />
+<text x="550" y="555" class="small" text-anchor="middle">가상 주소와 실제 물리 주소를 페이지 단위로 연결해 메모리를 효율적으로 관리한다.</text>
+
+</svg>

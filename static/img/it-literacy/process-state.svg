@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+
+<style>
+  .title { font: 700 28px Arial, sans-serif; fill: #2b2457; }
+  .label { font: 600 20px Arial, sans-serif; fill: #2b2457; }
+  .small { font: 500 16px Arial, sans-serif; fill: #3a3652; }
+  .tiny { font: 500 14px Arial, sans-serif; fill: #4a465f; }
+  .box { fill: #f4efff; stroke: #8d72e1; stroke-width: 2; rx: 16; }
+  .box2 { fill: #eef7ff; stroke: #65a7e8; stroke-width: 2; rx: 16; }
+  .box3 { fill: #f1fff4; stroke: #5eba74; stroke-width: 2; rx: 16; }
+  .warn { fill: #fff4e8; stroke: #ee9b43; stroke-width: 2; rx: 16; }
+  .arrow { stroke: #6f55d9; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+  .arrow2 { stroke: #2d8dc9; stroke-width: 3; fill: none; marker-end: url(#arrow2); }
+  .muted { fill: #fafafa; stroke: #d9d4ee; stroke-width: 1.5; rx: 12; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6f55d9" /></marker>
+  <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2d8dc9" /></marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<text x="550" y="45" class="title" text-anchor="middle">프로세스 상태 흐름</text>
+<rect x="70" y="190" width="160" height="80" class="box" /><text x="150" y="235" class="label" text-anchor="middle">생성</text>
+<rect x="290" y="190" width="160" height="80" class="box2" /><text x="370" y="235" class="label" text-anchor="middle">준비</text>
+<rect x="510" y="190" width="160" height="80" class="box3" /><text x="590" y="235" class="label" text-anchor="middle">실행</text>
+<rect x="730" y="190" width="160" height="80" class="warn" /><text x="810" y="235" class="label" text-anchor="middle">대기</text>
+<rect x="950" y="190" width="110" height="80" class="box" /><text x="1005" y="235" class="label" text-anchor="middle">종료</text>
+<line x1="230" y1="230" x2="290" y2="230" class="arrow" /><line x1="450" y1="230" x2="510" y2="230" class="arrow" /><line x1="670" y1="230" x2="730" y2="230" class="arrow" /><line x1="890" y1="230" x2="950" y2="230" class="arrow" />
+<path d="M650 185 C650 105 330 105 330 185" class="arrow"/>
+<text x="490" y="100" class="tiny" text-anchor="middle">CPU 점유 시간이 끝나면 다시 준비 상태로 이동</text>
+<text x="550" y="370" class="small" text-anchor="middle">운영체제는 여러 프로세스가 공평하게 실행되도록 상태를 바꾸며 관리한다.</text>
+
+</svg>

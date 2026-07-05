@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+
+<style>
+  .title { font: 700 28px Arial, sans-serif; fill: #2b2457; }
+  .label { font: 600 20px Arial, sans-serif; fill: #2b2457; }
+  .small { font: 500 16px Arial, sans-serif; fill: #3a3652; }
+  .tiny { font: 500 14px Arial, sans-serif; fill: #4a465f; }
+  .box { fill: #f4efff; stroke: #8d72e1; stroke-width: 2; rx: 16; }
+  .box2 { fill: #eef7ff; stroke: #65a7e8; stroke-width: 2; rx: 16; }
+  .box3 { fill: #f1fff4; stroke: #5eba74; stroke-width: 2; rx: 16; }
+  .warn { fill: #fff4e8; stroke: #ee9b43; stroke-width: 2; rx: 16; }
+  .arrow { stroke: #6f55d9; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+  .arrow2 { stroke: #2d8dc9; stroke-width: 3; fill: none; marker-end: url(#arrow2); }
+  .muted { fill: #fafafa; stroke: #d9d4ee; stroke-width: 1.5; rx: 12; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6f55d9" /></marker>
+  <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2d8dc9" /></marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<text x="600" y="48" class="title" text-anchor="middle">웹 애플리케이션 서버 기본 구조</text>
+<rect x="60" y="160" width="210" height="120" class="box" /><text x="165" y="205" class="label" text-anchor="middle">클라이언트</text><text x="165" y="235" class="small" text-anchor="middle">브라우저 / 앱</text>
+<rect x="355" y="160" width="210" height="120" class="box2" /><text x="460" y="205" class="label" text-anchor="middle">Web Server</text><text x="460" y="235" class="small" text-anchor="middle">HTTP 요청 처리</text>
+<rect x="650" y="160" width="210" height="120" class="box" /><text x="755" y="205" class="label" text-anchor="middle">Back-end</text><text x="755" y="235" class="small" text-anchor="middle">비즈니스 로직</text>
+<ellipse cx="1035" cy="220" rx="120" ry="72" fill="#f4efff" stroke="#8d72e1" stroke-width="2"/><text x="1035" y="212" class="label" text-anchor="middle">Database</text><text x="1035" y="242" class="small" text-anchor="middle">저장 / 조회</text>
+<line x1="270" y1="205" x2="355" y2="205" class="arrow" /><text x="312" y="185" class="tiny" text-anchor="middle">Request</text>
+<line x1="355" y1="245" x2="270" y2="245" class="arrow" /><text x="312" y="272" class="tiny" text-anchor="middle">Response</text>
+<line x1="565" y1="220" x2="650" y2="220" class="arrow" />
+<line x1="860" y1="220" x2="915" y2="220" class="arrow" />
+<line x1="915" y1="250" x2="860" y2="250" class="arrow" />
+<text x="600" y="370" class="small" text-anchor="middle">사용자는 화면에서 클릭하지만, 실제로는 HTTP 요청과 응답이 여러 계층을 지나간다.</text>
+
+</svg>

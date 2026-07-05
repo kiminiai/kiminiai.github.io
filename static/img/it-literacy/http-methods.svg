@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+
+<style>
+  .title { font: 700 28px Arial, sans-serif; fill: #2b2457; }
+  .label { font: 600 20px Arial, sans-serif; fill: #2b2457; }
+  .small { font: 500 16px Arial, sans-serif; fill: #3a3652; }
+  .tiny { font: 500 14px Arial, sans-serif; fill: #4a465f; }
+  .box { fill: #f4efff; stroke: #8d72e1; stroke-width: 2; rx: 16; }
+  .box2 { fill: #eef7ff; stroke: #65a7e8; stroke-width: 2; rx: 16; }
+  .box3 { fill: #f1fff4; stroke: #5eba74; stroke-width: 2; rx: 16; }
+  .warn { fill: #fff4e8; stroke: #ee9b43; stroke-width: 2; rx: 16; }
+  .arrow { stroke: #6f55d9; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+  .arrow2 { stroke: #2d8dc9; stroke-width: 3; fill: none; marker-end: url(#arrow2); }
+  .muted { fill: #fafafa; stroke: #d9d4ee; stroke-width: 1.5; rx: 12; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#6f55d9" /></marker>
+  <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2d8dc9" /></marker>
+</defs>
+
+<rect width="100%" height="100%" fill="white"/>
+
+<text x="500" y="45" class="title" text-anchor="middle">HTTP 메서드와 CRUD 감각</text>
+<rect x="70" y="110" width="180" height="80" class="box" /><text x="160" y="145" class="label" text-anchor="middle">GET</text><text x="160" y="172" class="small" text-anchor="middle">조회</text>
+<rect x="300" y="110" width="180" height="80" class="box2" /><text x="390" y="145" class="label" text-anchor="middle">POST</text><text x="390" y="172" class="small" text-anchor="middle">생성 / 전달</text>
+<rect x="530" y="110" width="180" height="80" class="box" /><text x="620" y="145" class="label" text-anchor="middle">PUT / PATCH</text><text x="620" y="172" class="small" text-anchor="middle">수정</text>
+<rect x="760" y="110" width="180" height="80" class="warn" /><text x="850" y="145" class="label" text-anchor="middle">DELETE</text><text x="850" y="172" class="small" text-anchor="middle">삭제</text>
+<rect x="100" y="280" width="800" height="160" class="muted" />
+<text x="500" y="325" class="label" text-anchor="middle">REST API는 “주소(URI) + 기능(HTTP Method)” 조합으로 이해하면 쉽다.</text>
+<text x="500" y="370" class="small" text-anchor="middle">예: GET /orders → 주문 목록 조회</text>
+<text x="500" y="405" class="small" text-anchor="middle">예: POST /orders → 새 주문 생성</text>
+
+</svg>
