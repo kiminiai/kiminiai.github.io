@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <style>
+    text{font-family:Arial,'Noto Sans KR',sans-serif;fill:#222}.title{font-size:30px;font-weight:700}.box{fill:#f5f3ff;stroke:#7b61ff;stroke-width:3}.file{fill:#ecfeff;stroke:#0891b2;stroke-width:3}.label{font-size:21px;font-weight:700}.small{font-size:17px}.code{font-family:Consolas,monospace;font-size:22px}.arrow{stroke:#555;stroke-width:3;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#555"/></marker></defs>
+  <text x="450" y="55" text-anchor="middle" class="title">Pipe와 Redirection: 출력의 흐름을 바꾸는 방법</text>
+  <rect x="65" y="105" width="210" height="80" rx="16" class="box"/><text x="170" y="138" text-anchor="middle" class="label">head a.txt</text><text x="170" y="165" text-anchor="middle" class="small">첫 10줄 출력</text>
+  <line x1="275" y1="145" x2="345" y2="145" class="arrow"/><text x="310" y="125" text-anchor="middle" class="code">|</text>
+  <rect x="345" y="105" width="210" height="80" rx="16" class="box"/><text x="450" y="138" text-anchor="middle" class="label">grep [0-9]</text><text x="450" y="165" text-anchor="middle" class="small">숫자가 있는 행만 필터링</text>
+  <line x1="555" y1="145" x2="625" y2="145" class="arrow"/><text x="590" y="125" text-anchor="middle" class="code">&gt;</text>
+  <rect x="625" y="105" width="210" height="80" rx="16" class="file"/><text x="730" y="138" text-anchor="middle" class="label">result.txt</text><text x="730" y="165" text-anchor="middle" class="small">결과 저장</text>
+  <rect x="130" y="260" width="640" height="70" rx="12" fill="#222"/><text x="450" y="304" text-anchor="middle" fill="#fff" class="code">head a.txt | grep [0-9] &gt; result.txt</text>
+  <text x="450" y="390" text-anchor="middle" class="small">파이프(|)는 앞 명령의 출력을 뒤 명령의 입력으로 보낸다.</text>
+  <text x="450" y="425" text-anchor="middle" class="small">리다이렉션(&gt;, &gt;&gt;)은 화면에 나올 출력을 파일로 보낸다.</text>
+</svg>

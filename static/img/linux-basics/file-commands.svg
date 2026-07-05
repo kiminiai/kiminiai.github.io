@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <style>
+    text{font-family:Arial,'Noto Sans KR',sans-serif;fill:#222}.title{font-size:30px;font-weight:700}.cmd{font-size:24px;font-weight:700}.desc{font-size:18px}.card{fill:#f8f7ff;stroke:#7b61ff;stroke-width:3}.warn{fill:#fff7ed;stroke:#f97316;stroke-width:3}.small{font-size:16px}.arrow{stroke:#555;stroke-width:3;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#555"/></marker></defs>
+  <text x="450" y="55" text-anchor="middle" class="title">파일/디렉토리 명령어를 역할별로 묶어보기</text>
+  <rect x="55" y="95" width="230" height="105" rx="18" class="card"/><text x="170" y="135" text-anchor="middle" class="cmd">mkdir</text><text x="170" y="170" text-anchor="middle" class="desc">디렉토리 생성</text>
+  <rect x="335" y="95" width="230" height="105" rx="18" class="card"/><text x="450" y="135" text-anchor="middle" class="cmd">touch</text><text x="450" y="170" text-anchor="middle" class="desc">빈 파일 생성</text>
+  <rect x="615" y="95" width="230" height="105" rx="18" class="card"/><text x="730" y="135" text-anchor="middle" class="cmd">cat</text><text x="730" y="170" text-anchor="middle" class="desc">파일 내용 출력</text>
+  <rect x="55" y="250" width="230" height="105" rx="18" class="card"/><text x="170" y="290" text-anchor="middle" class="cmd">cp</text><text x="170" y="325" text-anchor="middle" class="desc">파일/디렉토리 복사</text>
+  <rect x="335" y="250" width="230" height="105" rx="18" class="card"/><text x="450" y="290" text-anchor="middle" class="cmd">mv</text><text x="450" y="325" text-anchor="middle" class="desc">이동 또는 이름 변경</text>
+  <rect x="615" y="250" width="230" height="105" rx="18" class="warn"/><text x="730" y="290" text-anchor="middle" class="cmd">rm</text><text x="730" y="325" text-anchor="middle" class="desc">삭제: 되돌리기 어려움</text>
+  <text x="450" y="415" text-anchor="middle" class="desc">명령어는 외우는 것보다 “무엇을 하려는지” 기준으로 묶어 이해하는 것이 좋다.</text>
+  <text x="450" y="455" text-anchor="middle" class="small">예: 디렉토리 만들기 → mkdir logs / 파일 복사 → cp a.txt backup.txt / 삭제 → rm a.txt</text>
+</svg>

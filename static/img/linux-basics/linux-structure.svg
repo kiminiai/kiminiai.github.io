@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <style>
+    text{font-family:Arial,'Noto Sans KR',sans-serif;fill:#222}
+    .title{font-size:30px;font-weight:700}
+    .label{font-size:22px;font-weight:700}
+    .small{font-size:17px}
+    .box{fill:#f7f5ff;stroke:#7b61ff;stroke-width:3}
+    .circle{fill:#fff;stroke:#7b61ff;stroke-width:4}
+    .arrow{stroke:#555;stroke-width:3;marker-end:url(#arrow)}
+  </style>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#555"/></marker></defs>
+  <rect x="30" y="30" width="840" height="460" rx="24" class="box"/>
+  <text x="450" y="78" text-anchor="middle" class="title">리눅스 구조: 사용자는 Shell을 통해 Kernel에 요청한다</text>
+  <circle cx="450" cy="275" r="175" class="circle"/>
+  <circle cx="450" cy="275" r="115" class="circle"/>
+  <circle cx="450" cy="275" r="55" class="circle"/>
+  <text x="450" y="165" text-anchor="middle" class="label">Shell</text>
+  <text x="450" y="252" text-anchor="middle" class="label">Kernel</text>
+  <text x="450" y="282" text-anchor="middle" class="small">하드웨어 제어</text>
+  <text x="450" y="345" text-anchor="middle" class="label">Hardware</text>
+  <text x="102" y="245" class="label">사용자</text>
+  <text x="95" y="275" class="small">명령 입력</text>
+  <line x1="185" y1="265" x2="275" y2="265" class="arrow"/>
+  <text x="660" y="245" class="label">응용 프로그램</text>
+  <text x="660" y="275" class="small">파일/네트워크/프로세스 사용</text>
+  <line x1="635" y1="265" x2="575" y2="265" class="arrow"/>
+  <text x="450" y="455" text-anchor="middle" class="small">Shell은 명령을 해석하고, Kernel은 실제 시스템 자원을 제어한다.</text>
+</svg>

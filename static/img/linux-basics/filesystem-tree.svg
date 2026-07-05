@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <style>
+    text{font-family:Arial,'Noto Sans KR',sans-serif;fill:#222}.title{font-size:30px;font-weight:700}.node{fill:#f5f3ff;stroke:#7b61ff;stroke-width:3}.root{fill:#ede9fe}.label{font-size:22px;font-weight:700}.small{font-size:17px}.line{stroke:#555;stroke-width:3}
+  </style>
+  <text x="450" y="55" text-anchor="middle" class="title">리눅스 파일 시스템은 트리 구조다</text>
+  <rect x="390" y="90" width="120" height="58" rx="14" class="node root"/><text x="450" y="127" text-anchor="middle" class="label">/</text>
+  <line x1="450" y1="148" x2="450" y2="205" class="line"/>
+  <line x1="150" y1="205" x2="750" y2="205" class="line"/>
+  <line x1="150" y1="205" x2="150" y2="242" class="line"/><line x1="300" y1="205" x2="300" y2="242" class="line"/><line x1="450" y1="205" x2="450" y2="242" class="line"/><line x1="600" y1="205" x2="600" y2="242" class="line"/><line x1="750" y1="205" x2="750" y2="242" class="line"/>
+  <rect x="95" y="242" width="110" height="58" rx="14" class="node"/><text x="150" y="279" text-anchor="middle" class="label">home</text>
+  <rect x="245" y="242" width="110" height="58" rx="14" class="node"/><text x="300" y="279" text-anchor="middle" class="label">etc</text>
+  <rect x="395" y="242" width="110" height="58" rx="14" class="node"/><text x="450" y="279" text-anchor="middle" class="label">var</text>
+  <rect x="545" y="242" width="110" height="58" rx="14" class="node"/><text x="600" y="279" text-anchor="middle" class="label">usr</text>
+  <rect x="695" y="242" width="110" height="58" rx="14" class="node"/><text x="750" y="279" text-anchor="middle" class="label">mnt</text>
+  <line x1="150" y1="300" x2="150" y2="358" class="line"/><line x1="150" y1="358" x2="295" y2="358" class="line"/><line x1="295" y1="358" x2="295" y2="395" class="line"/>
+  <rect x="92" y="395" width="118" height="58" rx="14" class="node"/><text x="151" y="432" text-anchor="middle" class="label">user01</text>
+  <rect x="238" y="395" width="118" height="58" rx="14" class="node"/><text x="297" y="432" text-anchor="middle" class="label">project</text>
+  <text x="450" y="492" text-anchor="middle" class="small">pwd는 현재 위치를 보여주고, cd는 트리 구조 안에서 위치를 이동한다.</text>
+</svg>
