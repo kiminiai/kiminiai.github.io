@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="540" viewBox="0 0 920 540">
+  <rect width="920" height="540" fill="#fbfbff"/>
+  <text x="460" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#2d2a64">윈도우 함수: PARTITION BY와 ORDER BY</text>
+  <g font-family="Arial, sans-serif" font-size="16">
+    <rect x="80" y="95" width="760" height="360" rx="16" fill="#fff" stroke="#6b62d6" stroke-width="3"/>
+    <rect x="80" y="95" width="760" height="48" rx="16" fill="#6b62d6"/>
+    <text x="155" y="126" fill="#fff" font-weight="700">country</text>
+    <text x="350" y="126" fill="#fff" font-weight="700">customerName</text>
+    <text x="575" y="126" fill="#fff" font-weight="700">creditLimit</text>
+    <text x="735" y="126" fill="#fff" font-weight="700">rank</text>
+
+    <rect x="95" y="155" width="730" height="120" rx="10" fill="#f0efff"/>
+    <text x="155" y="190">USA</text><text x="350" y="190">Customer A</text><text x="590" y="190">120000</text><text x="750" y="190">1</text>
+    <text x="155" y="225">USA</text><text x="350" y="225">Customer B</text><text x="590" y="225">95000</text><text x="750" y="225">2</text>
+    <text x="155" y="260">USA</text><text x="350" y="260">Customer C</text><text x="590" y="260">83000</text><text x="750" y="260">3</text>
+
+    <rect x="95" y="300" width="730" height="120" rx="10" fill="#eef9f4"/>
+    <text x="155" y="335">France</text><text x="350" y="335">Customer D</text><text x="590" y="335">115000</text><text x="750" y="335">1</text>
+    <text x="155" y="370">France</text><text x="350" y="370">Customer E</text><text x="590" y="370">76000</text><text x="750" y="370">2</text>
+    <text x="155" y="405">France</text><text x="350" y="405">Customer F</text><text x="590" y="405">50000</text><text x="750" y="405">3</text>
+  </g>
+  <text x="460" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#333">PARTITION BY country는 국가별로 나누고, ORDER BY creditLimit DESC는 각 국가 안에서 순위를 매긴다.</text>
+</svg>
