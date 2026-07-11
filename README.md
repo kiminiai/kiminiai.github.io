@@ -40,8 +40,6 @@
 
 - Hugo
 - Hugo Theme Stack
-- GitHub Pages
-- GitHub Actions
 
 ## Repository Structure
 
