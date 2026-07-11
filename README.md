@@ -1,47 +1,54 @@
-<img align="right" width="150" alt="logo" src="https://user-images.githubusercontent.com/5889006/190859553-5b229b4f-c476-4cbd-928f-890f5265ca4c.png">
+# MS K Blog
 
-# Hugo Theme Stack Starter Template
+데이터 분석과 머신러닝을 공부하며 정리한 개인 기술 블로그입니다.
 
-This is a quick start template for [Hugo theme Stack](https://github.com/CaiJimmy/hugo-theme-stack). It uses [Hugo modules](https://gohugo.io/hugo-modules/) feature to load the theme.
+수업에서 배운 내용, 실습하며 만난 오류, 직접 풀어본 예제, 프로젝트 과정을 기록합니다.  
+단순히 코드만 모아두는 것이 아니라, 왜 그렇게 처리했는지와 어떤 부분에서 헷갈렸는지를 함께 정리하는 것을 목표로 합니다.
 
-It comes with a basic theme structure and configuration. GitHub action has been set up to deploy the theme to a public GitHub page automatically. Also, there's a cron job to update the theme automatically everyday.
+## Blog
 
-## Video Tutorial
+- URL: https://minseok-good.github.io/
 
-In case you got lost during the setup process, here's a video tutorial that setups a new Hugo site using this template, and deploys it to GitHub Pages: https://www.youtube.com/watch?v=8qDdQQ6Ifxo
+## Main Topics
 
-## Get started
+이 블로그에서는 주로 다음 내용을 다룹니다.
 
-1. Click *Use this template*, and create your repository as `<username>.github.io` on GitHub. (You can also use a different repository name, but then the resulting website will be available at `https://<username>.github.io/<repository-name>`. )
-![Step 1](https://user-images.githubusercontent.com/5889006/156916624-20b2a784-f3a9-4718-aa5f-ce2a436b241f.png)
+- Python
+- Pandas / NumPy
+- 데이터 분석
+- 머신러닝
+- SQL
+- Linux
+- Git / GitHub
+- Kaggle 실습
+- 학습 중 발생한 오류 정리
 
-2. Once the repository is created, create a GitHub codespace associated with it.
-![Create codespace](https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png)
+## Study Notes
 
-3. While waiting for the codespace to be created, go to `Settings` -> `Pages` of your newly created repository, and set `Build and deployment` -> `Source` to `GitHub Actions`.
-![Change build and deployment source](https://github.com/user-attachments/assets/192459bf-25d8-441e-8029-c108d789e449)
+블로그 글은 주로 다음 형식으로 작성합니다.
 
-4. After the codespace is created, you can test that the site is built successfully by running `hugo server` in the terminal and see your new site in action. 
+1. 문제 또는 개념 정의
+2. 실습 코드
+3. 코드 실행 결과
+4. 헷갈렸던 부분
+5. 오류와 해결 과정
+6. 최종 정리
 
-5. Check `config` folder for the configuration files. You can edit them to suit your needs. Make sure to update the `baseurl` property in `config/_default/config.toml` to your site's URL. For example, if your new repository is named `my-blog`, then the `baseurl` should be `https://<username>.github.io/my-blog/`.
+## Tech Stack
 
-6. Once you're done editing the site, just commit it and push it. GitHub action will deploy the site automatically to GitHub page asociated with the repository.
+이 블로그는 다음 기술을 사용합니다.
 
----
+- Hugo
+- Hugo Theme Stack
+- GitHub Pages
+- GitHub Actions
 
-In case you don't want to use GitHub codespace, you can also run this template in your local machine. **You need to install Git, Go and Hugo extended locally.** For more information, check official Hugo documentation: https://gohugo.io/installation/
+## Repository Structure
 
-## Update theme manually
-
-Run:
-
-```bash
-hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v4
-hugo mod tidy
-```
-
-> This starter template has been configured with `v4` version of theme. Due to the limitation of Go module, once the `v4` or up version of theme is released, you need to update the theme manually. (Modifying `config/module.toml` file)
-
-## Deploy to another static page hostings
-
-Check official Hugo documentation: https://gohugo.io/host-and-deploy/
+```text
+.
+├── content/        # 블로그 글
+├── assets/         # 스타일 및 리소스
+├── static/         # 이미지, 파일 등 정적 리소스
+├── config/         # Hugo 설정 파일
+└── README.md
