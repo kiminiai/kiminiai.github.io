@@ -4,8 +4,7 @@ slug: "sklearn-coef-intercept-trailing-underscore"
 date: 2026-07-15
 draft: false
 categories:
-  - Machine Learning
-  - Python
+  - Study
 tags:
   - scikit-learn
   - LinearRegression

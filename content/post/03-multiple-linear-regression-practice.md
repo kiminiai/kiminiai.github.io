@@ -3,7 +3,7 @@ title: "다중선형회귀를 실제 데이터에 적용하며 알게 된 것: �
 date: 2026-07-11
 slug: multiple-linear-regression-practice
 categories:
-  - Machine Learning
+  - Study
 tags:
   - Regression
   - OLS

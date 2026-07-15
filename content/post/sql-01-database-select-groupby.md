@@ -3,7 +3,7 @@ title: "SQL 기초 1편: 데이터베이스, SELECT, 조건문, 집계 함수 �
 date: 2026-07-06
 draft: false
 categories:
-  - SQL
+  - Study
 tags:
   - SQL
   - Database

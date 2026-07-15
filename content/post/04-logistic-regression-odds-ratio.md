@@ -3,7 +3,7 @@ title: "로지스틱 회귀에서 회귀계수와 오즈비를 해석하는 방�
 date: 2026-07-11
 slug: logistic-regression-odds-ratio
 categories:
-  - Machine Learning
+  - Study
 tags:
   - Logistic Regression
   - Odds Ratio

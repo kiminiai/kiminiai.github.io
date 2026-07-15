@@ -4,8 +4,7 @@ slug: "rss-residual-sum-of-squares"
 date: 2026-07-15
 draft: false
 categories:
-  - Statistics
-  - Machine Learning
+  - Study
 tags:
   - RSS
   - regression

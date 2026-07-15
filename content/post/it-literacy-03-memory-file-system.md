@@ -3,7 +3,7 @@ title: "IT 리터러시 3편: 메모리와 파일 시스템은 왜 필요할까?
 date: 2026-07-05
 draft: false
 categories:
-  - IT Literacy
+  - Study
 tags:
   - Memory
   - Virtual Memory

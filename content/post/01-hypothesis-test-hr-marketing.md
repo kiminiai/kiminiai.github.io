@@ -3,7 +3,7 @@ title: "t-test부터 ANOVA, 카이제곱 검정까지: 가설검정을 실제 HR
 date: 2026-07-11
 slug: hypothesis-test-hr-marketing
 categories:
-  - Data Analysis
+  - Study
 tags:
   - Statistics
   - T-test

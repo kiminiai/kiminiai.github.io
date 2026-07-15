@@ -3,7 +3,6 @@ title: "IT 리터러시 1편: 웹 서비스는 어떻게 요청하고 응답할�
 date: 2026-07-05
 draft: false
 categories:
-  - IT Literacy
   - Study
 tags:
   - Web

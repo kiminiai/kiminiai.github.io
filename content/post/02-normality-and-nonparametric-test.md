@@ -3,7 +3,7 @@ title: "정규성을 만족하지 않으면 어떻게 할까? Anderson-Darling�
 date: 2026-07-11
 slug: normality-and-nonparametric-test
 categories:
-  - Data Analysis
+  - Study
 tags:
   - Statistics
   - Normality Test

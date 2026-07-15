@@ -4,13 +4,9 @@ slug: "python-enumerate-zip-pandas-idxmax"
 date: 2026-07-15
 draft: false
 categories:
-  - Python
-  - Pandas
+  - Study
 tags:
-  - enumerate
-  - zip
-  - idxmax
-  - pandas
+  - Python
 description: "데이터 전처리 코드에서 자주 만나는 enumerate, zip, idxmax의 역할을 실제 예제로 비교합니다."
 ---
 

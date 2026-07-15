@@ -3,7 +3,7 @@ title: "IT 리터러시 2편: 운영체제는 프로그램을 어떻게 실행�
 date: 2026-07-05
 draft: false
 categories:
-  - IT Literacy
+  - Study
 tags:
   - Operating System
   - Process

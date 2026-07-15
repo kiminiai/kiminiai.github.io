@@ -4,7 +4,7 @@ slug: "linux-02-regex-pipe-process-ssh"
 date: "2026-07-05"
 draft: false
 categories:
-  - Linux
+  - Study
 tags:
   - Linux
   - grep

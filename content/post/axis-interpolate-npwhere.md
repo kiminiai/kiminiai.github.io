@@ -4,13 +4,9 @@ slug: "pandas-axis-interpolate-numpy-where"
 date: 2026-07-15
 draft: false
 categories:
-  - Python
-  - Pandas
+  - Study
 tags:
-  - axis
-  - interpolate
-  - np.where
-  - preprocessing
+  - Python
 description: "데이터 전처리에서 자주 만나는 axis, interpolate, np.where의 의미를 실제 코드 중심으로 정리합니다."
 ---
 

@@ -4,7 +4,7 @@ slug: "random-undersampler-sampling-strategy"
 date: 2026-07-15
 draft: false
 categories:
-  - Machine Learning
+  - Study
 tags:
   - RandomUnderSampler
   - undersampling

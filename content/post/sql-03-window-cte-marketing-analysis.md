@@ -3,7 +3,7 @@ title: "SQL 기초 3편: 집합 연산자, 뷰, 윈도우 함수와 마케팅 �
 date: 2026-07-06
 draft: false
 categories:
-  - SQL
+  - Study
 tags:
   - SQL
   - Window Function

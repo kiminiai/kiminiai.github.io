@@ -4,8 +4,7 @@ slug: "fit-transform-double-brackets-dataframe-series"
 date: 2026-07-15
 draft: false
 categories:
-  - Python
-  - Machine Learning
+  - Study
 tags:
   - pandas
   - scikit-learn

@@ -3,7 +3,7 @@ title: "SQL 기초 2편: JOIN과 서브쿼리로 여러 테이블 연결하기"
 date: 2026-07-06
 draft: false
 categories:
-  - SQL
+  - Study
 tags:
   - SQL
   - JOIN
